@@ -20,11 +20,11 @@ const DonationCard = ({ card }) => {
 
   return (
     <div>
-      <div style={cardStyle} className="p-5 flex gap-4 items-center rounded">
+      <div style={cardStyle} className="p-5 md:flex gap-4 items-center rounded">
         <div>
-          <img src={card.picture} alt={title} className="rounded" />
+          <img src={picture} alt={title} className="rounded" />
         </div>
-        <div className="space-y-3">
+        <div className="space-y-3 mt-3">
         <button style={btnStyle} className="p-2 rounded">{category}</button>
             <p className="font-semibold text-2xl">{title}</p>
             <p style={textStyle} className="text-base font-bold">$ {price}</p>
