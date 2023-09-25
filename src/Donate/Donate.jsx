@@ -1,4 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from "sweetalert";
+
 
 const Donate = () => {
   const cards = useLoaderData();
@@ -18,12 +20,35 @@ const Donate = () => {
 
   };
 
+  const donateHandler = ()=> {
+
+    const donationsSave = [];
+    const donations = JSON.parse(localStorage.getItem('donations'));
+    if (!donations) {
+        donationsSave.push(card)
+        localStorage.setItem('donations', JSON.stringify(donationsSave))
+        console.log(donationsSave)
+        swal("Good job!", "Donation Success", "success");
+    }else{
+
+        const exists = donations.find(item => item.id ===cardIdInt)
+        if (!exists) {
+             donationsSave.push(...donations, card);
+            localStorage.setItem('donations', JSON.stringify(donationsSave))
+            swal("Good job!", "Donation Success", "success");
+        }else{
+            swal("Error!", "You have already donated", "error");
+        }
+    }
+
+  }
+
   return (
     <div className="w-[80%] mx-auto my-10 ">
       <div className="relative flex justify-center">
         <img src={picture} alt= {title} className="w-full lg:h-[700px] lg:[1024px] xl:w-[1300px]" />
         <div className="absolute bottom-0 left-0 w-full md:h-[30%] h-[40%] lg:left-0 xl:left-[117px] bg-black opacity-50 z-10 lg:w-[100%] xl:w-[1300px]"></div>
-        <button style={btnStyle} className="absolute left-4 bottom-3 md:bottom-10 lg:left-40 lg:bottom-14  text-white py-2 px-4 rounded transition duration-300 z-10">
+        <button onClick={()=>donateHandler()} style={btnStyle} className="absolute left-4 bottom-3 md:bottom-10 lg:left-40 lg:bottom-14  text-white py-2 px-4 rounded transition duration-300 z-10">
           Donate ${price}
         </button>
       </div>
