@@ -7,8 +7,8 @@
     "category_bg_color": "#0052FF26",
     "card_bg_color": "#0052FF26",
     "text_button_bg_color": ["#0052FF", "#0052FF33"],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "price": "$199.99"
+    "description": "Start your day with a burst of nutrition and energy with our healthy smoothie pack. Packed with vitamins, minerals, and antioxidants, these smoothies are the perfect way to boost your health. Each pack contains a variety of delicious flavors made from fresh fruits and vegetables. Say goodbye to sugary drinks and hello to a healthier you!",
+    "price": 199.99
   },
   {
     "id": 2,
@@ -18,8 +18,8 @@
     "category_bg_color": "#FF444A26",
     "card_bg_color": "#FF444A26",
     "text_button_bg_color": ["#FF444A", "#FF444A33"],
-    "description": "Suspendisse auctor, arcu id scelerisque dapibus, erat velit tempus neque.",
-    "price": "$49.99"
+    "description": "Embark on a journey to learn a new language with our interactive language learning app. Whether you're traveling, studying, or just curious, our app makes language learning fun and effective. With lessons, quizzes, and real-life scenarios, you'll be speaking a new language in no time. Unlock a world of opportunities and connect with people from different cultures.",
+    "price": 49.99
   },
   {
     "id": 3,
@@ -29,8 +29,8 @@
     "category_bg_color": "#79C23F26",
     "card_bg_color": "#79C23F26",
     "text_button_bg_color": ["#79C23F", "#79C23F33"],
-    "description": "Fusce ut mi et ligula luctus euismod.",
-    "price": "$79.99"
+    "description": "Upgrade your style with our designer sunglasses collection. These high-quality sunglasses not only protect your eyes from the sun but also add a touch of glamour to your look. With a variety of styles and UV protection, these sunglasses are a must-have accessory for any fashion-conscious individual.",
+    "price": 79.99
   },
   {
     "id": 4,
@@ -40,8 +40,8 @@
     "category_bg_color": "#F8714726",
     "card_bg_color": "#F8714726",
     "text_button_bg_color": ["#F87147", "#F8714733"],
-    "description": "Vivamus auctor justo at mi dignissim, a vulputate elit cursus.",
-    "price": "$29.99"
+    "description": "Indulge in the decadence of our gourmet chocolate box. Each box contains a selection of handcrafted chocolates made from the finest ingredients. From rich dark chocolate to creamy milk chocolate, this assortment caters to every chocolate lover's cravings. Treat yourself or surprise someone special with the gift of heavenly chocolates.",
+    "price": 29.99
   },
   {
     "id": 5,
@@ -51,8 +51,8 @@
     "category_bg_color": "#F8714726",
     "card_bg_color": "#F8714726",
     "text_button_bg_color": ["#F87147", "#F8714733"],
-    "description": "Phasellus ut eros at ante consectetur pharetra.",
-    "price": "$39.99"
+    "description": "Indulge in the decadence of our gourmet chocolate box. Each box contains a selection of handcrafted chocolates made from the finest ingredients. From rich dark chocolate to creamy milk chocolate, this assortment caters to every chocolate lover's cravings. Treat yourself or surprise someone special with the gift of heavenly chocolates.",
+    "price": 39.99
   },
   {
     "id": 6,
@@ -62,8 +62,8 @@
     "category_bg_color": "#79C23F26",
     "card_bg_color": "#79C23F26",
     "text_button_bg_color": ["#79C23F", "#79C23F33"],
-    "description": "Pellentesque eget ligula et urna rhoncus dignissim.",
-    "price": "$149.99"
+    "description": "Upgrade your style with our designer sunglasses collection. These high-quality sunglasses not only protect your eyes from the sun but also add a touch of glamour to your look. With a variety of styles and UV protection, these sunglasses are a must-have accessory for any fashion-conscious individual.",
+    "price": 149.99
   },
   {
     "id": 7,
@@ -73,8 +73,8 @@
     "category_bg_color": "#FF444A26",
     "card_bg_color": "#FF444A26",
     "text_button_bg_color": ["#FF444A", "#FF444A33"],
-    "description": "Aliquam non odio ut enim condimentum laoreet ut nec metus.",
-    "price": "$59.99"
+    "description": "Embark on a journey to learn a new language with our interactive language learning app. Whether you're traveling, studying, or just curious, our app makes language learning fun and effective. With lessons, quizzes, and real-life scenarios, you'll be speaking a new language in no time. Unlock a world of opportunities and connect with people from different cultures.",
+    "price": 59.99
   },
   {
     "id": 8,
@@ -84,8 +84,8 @@
     "category_bg_color": "#0052FF26",
     "card_bg_color": "#0052FF26",
     "text_button_bg_color": ["#0052FF", "#0052FF33"],
-    "description": "Donec at arcu ut ex luctus dignissim eu ac orci.",
-    "price": "$69.99"
+    "description": "Start your day with a burst of nutrition and energy with our healthy smoothie pack. Packed with vitamins, minerals, and antioxidants, these smoothies are the perfect way to boost your health. Each pack contains a variety of delicious flavors made from fresh fruits and vegetables. Say goodbye to sugary drinks and hello to a healthier you!",
+    "price": 69.99
   },
   {
     "id": 9,
@@ -95,8 +95,8 @@
     "category_bg_color": "#0052FF26",
     "card_bg_color": "#0052FF26",
     "text_button_bg_color": ["#0052FF", "#0052FF33"],
-    "description": "Mauris vehicula augue eget leo congue, a malesuada eros tincidunt.",
-    "price": "$34.99"
+    "description": "Start your day with a burst of nutrition and energy with our healthy smoothie pack. Packed with vitamins, minerals, and antioxidants, these smoothies are the perfect way to boost your health. Each pack contains a variety of delicious flavors made from fresh fruits and vegetables. Say goodbye to sugary drinks and hello to a healthier you!",
+    "price": 34.99
   },
   {
     "id": 10,
@@ -106,8 +106,8 @@
     "category_bg_color": "#FF444A26",
     "card_bg_color": "#FF444A26",
     "text_button_bg_color": ["#FF444A", "#FF444A33"],
-    "description": "In sed elit in mi euismod feugiat sed id elit.",
-    "price": "$44.99"
+    "description": "Embark on a journey to learn a new language with our interactive language learning app. Whether you're traveling, studying, or just curious, our app makes language learning fun and effective. With lessons, quizzes, and real-life scenarios, you'll be speaking a new language in no time. Unlock a world of opportunities and connect with people from different cultures.",
+    "price": 44.99
   },
   { 
     "id": 11,
@@ -117,8 +117,8 @@
     "category_bg_color": "#79C23F26",
     "card_bg_color": "#79C23F26",
     "text_button_bg_color": ["#79C23F", "#79C23F33"],
-    "description": "Sed ultrices eros id urna tincidunt feugiat.",
-    "price": "$259.99"
+    "description": "Upgrade your style with our designer sunglasses collection. These high-quality sunglasses not only protect your eyes from the sun but also add a touch of glamour to your look. With a variety of styles and UV protection, these sunglasses are a must-have accessory for any fashion-conscious individual.",
+    "price": 259.99
   },
   {
     "id": 12,
@@ -128,7 +128,7 @@
     "category_bg_color": "#F8714726",
     "card_bg_color": "#F8714726",
     "text_button_bg_color": ["#F87147", "#F8714733"],
-    "description": "Curabitur venenatis erat a justo bibendum, eu aliquet augue consectetur.",
-    "price": "$54.99"
+    "description": "Indulge in the decadence of our gourmet chocolate box. Each box contains a selection of handcrafted chocolates made from the finest ingredients. From rich dark chocolate to creamy milk chocolate, this assortment caters to every chocolate lover's cravings. Treat yourself or surprise someone special with the gift of heavenly chocolates.",
+    "price": 54.99
   }
 ]
