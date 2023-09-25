@@ -5,12 +5,3 @@
 .active {
     text-decoration: underline;
 }
-
-.header {
-    background-image: url('../public/img/headerbg.jpeg');
-    background-position: center;
-    background-size: cover;
-    inset: 0;
-    opacity: 30px;
-    
-}
