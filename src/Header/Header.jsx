@@ -68,7 +68,7 @@ const Header = () => {
           <a className="uppercase font-extrabold text-xl">
             <img
               className="w-36 hidden lg:flex"
-              src="../../public/img/Logo.png"
+              src="https://i.ibb.co/X4xv4SS/Logo.png"
               alt=""
             />
           </a>
@@ -114,7 +114,7 @@ const Header = () => {
         </div>
         <div className="md:flex lg:hidden pr-5">
           <a className="uppercase font-extrabold text-xl">
-            <img className="w-36" src="../../public/img/Logo.png" alt="" />
+            <img className="w-36" src="https://i.ibb.co/X4xv4SS/Logo.png" alt="" />
           </a>
         </div>
       </div>

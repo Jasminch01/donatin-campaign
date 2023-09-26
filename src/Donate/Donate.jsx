@@ -28,14 +28,14 @@ const Donate = () => {
         donationsSave.push(card)
         localStorage.setItem('donations', JSON.stringify(donationsSave))
         console.log(donationsSave)
-        swal("Good job!", "Donation Success", "success");
+        swal("Good job!", "Donation successful", "success");
     }else{
 
         const exists = donations.find(item => item.id ===cardIdInt)
         if (!exists) {
              donationsSave.push(...donations, card);
             localStorage.setItem('donations', JSON.stringify(donationsSave))
-            swal("Good job!", "Donation Success", "success");
+            swal("Good job!", "Donation successful", "success");
         }else{
             swal("Error!", "You have already donated", "error");
         }
