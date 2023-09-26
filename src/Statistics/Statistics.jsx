@@ -79,7 +79,7 @@ const Statistics = () => {
                 nameKey="name"
                 labelLine={false}
                 label={renderCustomizedLabel}
-                legendType="plainline"
+                legendType="square"
               >
                 {data.map((entry, index) => (
                   <Cell
