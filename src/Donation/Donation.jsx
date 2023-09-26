@@ -15,7 +15,7 @@ const Donation = () => {
     }
   }, []);
   return (
-    <div>
+    <div className="mt-36 md:m-0">
       {noDataFound ? (
         <p className="text-center h-screen flex justify-center items-center text-2xl">{noDataFound}</p>
       ) : (
@@ -32,7 +32,7 @@ const Donation = () => {
                   ))}
           </div>
           <div>
-            {donations.length >= 4 && (
+            {donations.length > 4 && (
               <div
                 className={
                   isSeeAll ? "hidden" : "flex items-center justify-center my-5"

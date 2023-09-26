@@ -1,10 +1,9 @@
-// import { useState } from "react";
+
 import { useLoaderData } from "react-router-dom";
 import Category from "../Category/Category";
 import { useEffect, useState } from "react";
 
 const Home = () => {
-  // const [filterData,setFilterData]= useState([]);
   const [data, setData] = useState([])
   const [inputValue, setInputValue] = useState('')
   

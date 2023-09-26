@@ -79,6 +79,7 @@ const Statistics = () => {
                 nameKey="name"
                 labelLine={false}
                 label={renderCustomizedLabel}
+                legendType="plainline"
               >
                 {data.map((entry, index) => (
                   <Cell
@@ -88,7 +89,9 @@ const Statistics = () => {
                 ))}
               </Pie>
               <Tooltip />
-              <Legend />
+              <Legend 
+               iconSize={15}
+              />
             </PieChart>
           </ResponsiveContainer>
         </div>
